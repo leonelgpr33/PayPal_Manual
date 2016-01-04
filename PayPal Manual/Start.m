@@ -111,6 +111,7 @@
                                                            options:0
                                                              error:nil];
     NSLog(@"confirmation %@", confirmation);
+   //Impresión de Confirmación
     NSLog(@"completedPayment %@", completedPayment);
     // Send confirmation to your server; your server should verify the proof of payment
     // and give the user their goods or services. If the server is not reachable, save
